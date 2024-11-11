@@ -8,7 +8,7 @@ I denna uppgift så ska ni skapa en databas som lagrar data om tv-spel, genre oc
 
 3. Som samlare vill jag kunna se vilka spel som tillhör en viss genre.
 
-Man ska alltså kunna ställa frågor till databasen som kopplar ihop spel med en viss genre samt konsol. Databasen ska vara **normaliserad**, vilket här i praktiken innebär att en tabell med ett spel inte får innehålla konsollens namn eller genre, utan spelen ska ligga, med en sak per rad, i sin egen tabell, samt så ska de andra entiterna ligga i sina egna tabeller innehållande sin egen information.
+Man ska alltså kunna ställa frågor till databasen som kopplar ihop spel med en viss genre samt konsol. Databasen ska vara **normaliserad**, _( minst första normalformen uppfylld )_ vilket här i praktiken innebär att en tabell med ett spel inte får innehålla konsollens namn eller genre, utan spelen ska ligga, med en sak per rad, i sin egen tabell, samt så ska de andra entiterna ligga i sina egna tabeller innehållande sin egen information.
 
 ### Instruktioner
 
